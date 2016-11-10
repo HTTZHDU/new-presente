@@ -1,0 +1,225 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body{
+	font-size: 20px;
+	font-family: serif;
+	width:100%;
+	height:100%;
+}
+a{
+	text-decoration: none;
+	color: 	#000000;
+	margin: 10px;
+	margin-right: 30px;
+}
+li{
+	list-style: none;
+}
+.topbar{
+	width:100%;
+	height: 40px;
+	background-color: #F5DEB3;
+}
+.left-bar{
+	float: left;
+	margin: 10px;
+}
+.right-bar{
+	float: right;
+	margin: 10px;
+}
+#content{
+	position: absolute;
+	top: 41px;
+	left: 0;
+	width: 1340px;
+	height:600px;
+	padding: 10px;
+	background-color: 	#F0E68C;
+}
+.choose-style{
+	float: left;
+	background: white;
+	width: 300px;
+	height: 600px;
+
+}
+.edit-show{
+	background-color: white;
+	float: right;
+	width: 1000px;
+	height: 600px;
+}
+.layout li {
+	list-style-type: none;
+	width: 60px;
+	height: 60px;
+	display: list-item;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.layout li a img{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #333;
+	padding:3px;
+	border-radius: 10%;
+}
+table,td,th{
+	border: 1px solid black;
+}
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 280px;
+	text-align: center;
+}
+button{
+	width: 80px;
+	height: 40px;
+	background-color: blue;
+	color: white;
+	position: absolute;
+	left: 20px;
+	bottom: 30px;
+	border-radius: 15%;
+}
+.edit-area{
+	background-color: #F4A460;
+	width: 80%;
+	height: 80%;
+	margin-left: 100px;
+	margin-top: 60px;
+}
+.title{
+	width: 280px;
+	height: 40px;
+
+}
+.title2{
+	font-size:30px;
+
+}
+.edit-title{
+	float: right;
+}
+form {
+	float: right;
+	display: none;
+}
+.input-title{
+	height: 20px;
+	border: 1px solid blue;
+	border-radius: 5%;
+}
+i{
+	background: url(../img/1.png);
+	width: 15px;
+	height: 15px;
+	float: left;
+	display: inline;
+	background-repeat: no-repeat
+}
+.choose{
+	float: right;
+	width: 400px;
+	height: 40px;
+	display: inline-block;
+}
+.choose li{
+	float: left;
+}
+i{
+	margin: 5px auto;
+}
+.cho-1 i{
+	background-position: -288px -23px;
+}
+.cho-2 i{
+	background-position: -215px -23px;
+}
+.cho-3 i{
+	background-position: -265px -72px;
+}
+.edit1{
+	width: 70%;
+	height: 25%;
+	background-color: white;
+	position: relative;
+	top: 10%;
+	left: 15%;
+	display: none;
+}
+.input-hello{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	position: relative;
+	top: 0;
+	left: 0;
+	font-size: 30px;
+}
+.edit2{
+	width: 60%;
+	height: 15%;
+	background-color: #333;
+	position: relative;
+	top: 15%;
+	left: 20%;
+	display: none;
+}
+.class-edit-subtitle{
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.edit3{
+	width: 80%;
+	height: 60%;
+	position: relative;
+	top: 30%;
+	left: 10%;
+	background-color: white;
+	display: none;
+}
+.class-edit-content{
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+.edit4{
+	width: 80%;
+	height: 40%;
+	position: relative;
+	top: 20%;
+	left: 10%;
+	background-color: white;
+	display: none;
+}
+.input-left{
+	width: 40%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 10px;
+	background-color:#123;
+}
+.input-right{
+	width: 40%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	right:-103px;
+	background-color: #232;
+} 

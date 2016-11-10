@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>"iphone-web-aspp"</title>
+	
+	<link rel="stylesheet" type="text/css" href="style/content.css">
+
+</head>
+<body>
+	<div id="presentation">
+		<div id="topbar" class="topbar">
+			<div class="left-bar">
+
+				<a href="#"><span>H5Slides</span></a>
+				<!-- <a href="#"><span>Edit</span></a> -->
+				<div class="edit-title"><a href="#" >Edit title</a></div>
+				
+				<form class="edit-form" id="edit-form-wrapper" data-bind="visible:editingTitle" onsubmit="return false;">
+				<input type="text" id="input-title" placeholder="Input Title here..." data-bind="value:title,hasfocus:editingTitle">
+					
+				</form>
+			</div>
+			<div class="right-bar">
+				<ul class="choose">
+					<li class="cho-1">
+						<a href="#">
+						<i></i>
+						Themes
+						</a>
+					</li>
+					<li class="cho-2">
+						<a href="#">
+							<i></i>
+							Reset
+						</a>
+					</li>
+					<li class="cho-3">
+						<a href="#">
+							<i></i>
+							Preview
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<div id="sidebar" class="choose-style">
+				<div class="layout">
+					<ul>
+						<div class="title1">
+							<h1>Layout</h1>
+						</div>
+						
+						<li class="type1"><a href="#" >
+							<img src="images/layout/double-subtitle.png">
+						</a></li>
+						<li class="type2"><a href="#">
+							<img src="images/layout/double.png">
+						</a></li>
+						<li class="type3"><a href="#">
+							<img src="images/layout/imax.png">
+						</a></li>
+						<li class="type4"><a href="#">
+							<img src="images/layout/normal.png">
+						</a></li>
+						<li class="type5"><a href="#">
+							<img src="images/layout/subtitle.png">
+						</a></li>
+						<li class="type6"><a href="#">
+							<img src="images/layout/title.png">
+						</a></li>
+					</ul>
+				</div>
+				<div class="pagination">
+					<span class="title2">Pagination</span>
+					<table>
+						<tr>
+							<td>Hello World</td>
+						</tr>
+						<tr>
+							<td>Content</td>
+						</tr>
+						<tr>
+							<td>logo</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tijiao">
+					<button>+add</button>
+					<button>1</button>
+					<button>2</button>
+					<button>3</button>
+				</div>
+			</div>
+			
+			<div id="edit" class="edit-show">
+				<div class="edit-area">
+					<div class="edit1">
+						<!-- <form class="edit-text-hello"> -->
+							<input type="text" name="hello" placeholder="hello World" class="input-hello">
+						<!-- </form> -->
+					</div>
+					<div class="edit2">
+						<!-- <input type="text" name="content" placeholder="subtitle" class="class-edit-subtitle"> -->
+						<textarea class="class-edit-subtitle"></textarea>
+					</div>
+					<div class="edit3">
+						<textarea class="class-edit-content"></textarea>
+						<!-- <input type="text" name="onetcontent" placeholder="onetcontent" class="class-edit-content"> -->
+					</div>
+					<div class="edit4">
+						<textarea class="input-left"></textarea> <!-- type="text" name="" class="input-left"> -->
+						<textarea class="input-right"></textarea>
+						<!-- <input type="text" name="" class="input-right"> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="script/content.js"></script>
+</body>
+</html>
